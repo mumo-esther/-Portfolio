@@ -4,7 +4,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  padding-bottom: 2em;
+  overflow-x: hidden;
 
   --shadow: 0 2px 10px -1px rgb(0 0 0 / 80%);
   --shadow-accent: 0 2px 50px -1px rgb(0 0 0 / 80%);
@@ -200,7 +200,6 @@ button:active {
 .headline {
   background: #fff url("./images/background.png") no-repeat;
   background-size: cover;
-  overflow: hidden;
   background-position: center;
 }
 
@@ -211,7 +210,7 @@ button:active {
 .headline p {
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 28px;
   margin: 2em 24px;
   text-align: center;
@@ -240,17 +239,14 @@ button:active {
   }
 
   .header-title {
-    padding-top: 3em;
+    padding-top: 2em;
   }
 
   .header-nav-desktop {
-    position: relative;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    padding: 0;
     padding-top: 1em;
-    margin-left: 500px;
   }
 
   .header-nav-desktop li {
@@ -266,15 +262,10 @@ button:active {
   .headline {
     background: #fff url("./images/background.png") no-repeat;
     background-size: 100%;
-    padding-bottom: 8em;
   }
 }
 
 @media (min-width: 1024px) {
-  .headline {
-    padding-bottom: 15em;
-  }
-
   .about-myself {
     background:
       url("./images/frame5.png") no-repeat 0% 20%,
@@ -285,11 +276,10 @@ button:active {
 .works {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  padding: 1.5rem;
   text-align: center;
-  column-gap: 1rem;
-  width: 90%;
   margin: 0 auto;
+  width: 80%;
+  margin-top: 100px;
 }
 
 .works h1:first-child {
@@ -315,9 +305,7 @@ button:active {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 0;
-  margin: 1em auto;
-  width: auto;
+  margin: 0.5em;
   height: 474px;
   border: 1px lightgrey solid;
   border-radius: 5px;
@@ -351,8 +339,8 @@ button:active {
 .card-work > .card-tags > li {
   background: #ebf0ee;
   font-size: 12px;
-  padding: 1em;
-  margin: 0 0.5em;
+  padding: 0.3em;
+  margin: 0 0.1em;
   border-radius: 2px;
 }
 
@@ -394,8 +382,11 @@ button:active {
   object-fit: cover;
 }
 
+.card-title {
+  margin-bottom: -15px;
+}
+
 .card-title-mobile {
-  margin-top: 200px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -537,7 +528,7 @@ button:active {
 }
 
 .about-myself {
-  margin-top: 2em;
+  margin-top: 150px;
 }
 
 .about-myself p {
