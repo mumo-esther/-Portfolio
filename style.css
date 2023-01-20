@@ -463,6 +463,10 @@ button:active {
   .works h1:first-child::after {
     content: none;
   }
+
+  .works {
+    grid-template-columns: repeat(3, auto);
+  }
 }
 
 @media (min-width: 1050px) {
