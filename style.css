@@ -309,7 +309,7 @@ button:active {
   height: 474px;
   border: 1px lightgrey solid;
   border-radius: 5px;
-  transition: box-shadow 0.4s ease-out;
+  transition: box-shadow 0.2s ease-out;
 }
 
 .card-work:hover {
