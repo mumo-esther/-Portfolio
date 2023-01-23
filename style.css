@@ -309,7 +309,7 @@ button:active {
   height: 474px;
   border: 1px lightgrey solid;
   border-radius: 5px;
-  transition: box-shadow 0.4s ease-out;
+  transition: box-shadow 0.2s ease-out;
 }
 
 .card-work:hover {
@@ -356,8 +356,8 @@ button:active {
   position: fixed;
   top: 50%;
   left: 50%;
-  transition: 2000ms ease-in-out;
-  transform: translate(-50%, -50%) scale(1);
+  transition: 2100ms ease-in-out;
+  transform: translate(-50%, -50%) scale(2);
   height: 100%;
   width: 100%;
   z-index: 2;
@@ -462,6 +462,10 @@ button:active {
 
   .works h1:first-child::after {
     content: none;
+  }
+
+  .works {
+    grid-template-columns: repeat(3, auto);
   }
 }
 
