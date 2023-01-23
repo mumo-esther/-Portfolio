@@ -33,7 +33,8 @@ css
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+**Link to online version of My Portfolio**
+https://mumo-esther.github.io/Desktop-version-Portfolio/
 
 ## 💻 Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
