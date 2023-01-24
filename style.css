@@ -8,7 +8,7 @@ body {
 
   --shadow: 0 2px 10px -1px rgb(0 0 0 / 80%);
   --shadow-accent: 0 2px 50px -1px rgb(0 0 0 / 80%);
-  --color-primary: #36b37f;
+  --color-primary: #1d6346;
 }
 
 body {
@@ -207,6 +207,11 @@ button:active {
   margin-top: 150px;
 } */
 
+footer p {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
 .headline p {
   font-style: normal;
   font-weight: normal;
@@ -282,11 +287,16 @@ button:active {
   margin-top: 100px;
 }
 
-.works h1:first-child {
+.works h2,
+.about-myself h2 {
+  font-size: 35px;
+}
+
+.works h2:first-child {
   padding: 1em;
 }
 
-.works h1:first-child::after {
+.works h2:first-child::after {
   content: "";
   height: 4px;
   width: 48px;
@@ -453,14 +463,14 @@ button:active {
 }
 
 @media (min-width: 800px) {
-  .works h1:first-child {
+  .works h2:first-child {
     align-self: flex-end;
     padding: 1em;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
   }
 
-  .works h1:first-child::after {
+  .works h2:first-child::after {
     content: none;
   }
 
@@ -524,7 +534,7 @@ button:active {
 }
 
 @media (min-width: 1150px) {
-  .works h1:first-child {
+  .works h2:first-child {
     padding: 1em;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
@@ -802,7 +812,7 @@ footer::after {
   }
 
   textarea {
-    font: 1em "inter", sans-serif;
+    font: 1em inter, sans-serif;
     width: 300px;
     box-sizing: border-box;
     border: 1px solid green;
