@@ -13,7 +13,7 @@ const navLinks = document.querySelectorAll('.overlay-item');
 const navMenu = document.getElementById('.overlay-content');
 
 function linkshandler() {
-  navMenu.classList.remove('show');
+navMenu.classList.remove('show');
 }
-navLinks.forEach((n) => n.addEventListener('click', linkshandler));
+navLinks.forEach((n) => n.addEventListener('click', linkshandler)); 
 navLinks.forEach((n) => n.addEventListener('click', linkshandler));
