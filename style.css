@@ -8,7 +8,7 @@ body {
 
   --shadow: 0 2px 10px -1px rgb(0 0 0 / 80%);
   --shadow-accent: 0 2px 50px -1px rgb(0 0 0 / 80%);
-  --color-primary: #36b37f;;
+  --color-primary: #36b37f;
 }
 
 body {
@@ -110,7 +110,7 @@ button:active {
   width: 100%;
   background-color: white;
   z-index: 100;
-  margin:0 20px;
+  margin: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -140,7 +140,6 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
   gap: 8px;
   position: absolute;
   top: 120px;
@@ -150,10 +149,17 @@ button:active {
   padding: 8px;
   text-decoration: none;
   font-size: 30px;
-  color: #3A4A42;
+  color: #3a4a42;
   font-weight: bolder;
   display: block;
   transition: 0.3s;
+}
+
+.social-media > ul > li > a {
+  text-decoration: none;
+  color: #42526e;
+  font-size: 20px;
+  margin-top: 1.5em;
 }
 
 .overlay a:hover,
@@ -222,7 +228,7 @@ footer p {
 }
 
 @media (min-width: 992px) {
-   .header-logo {
+  .header-logo {
     display: none;
   }
 
@@ -446,7 +452,7 @@ footer p {
 }
 
 @media (min-width: 800px) {
- .works h2:first-child {
+  .works h2:first-child {
     align-self: flex-end;
     padding: 1em;
     grid-column: 1 / -1;
@@ -595,7 +601,6 @@ footer p {
     display: none;
   }
 
-
   .about-myself {
     background:
       url("./images/frame5.png") no-repeat 0% 25%,
@@ -634,13 +639,6 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.social-media > ul > li > a {
-  text-decoration: none;
-  color: #42526e;
-  font-size: 20px;
-  margin-top: 1.5em;
 }
 
 .link-mail {
@@ -713,7 +711,6 @@ footer::after {
   .header-nav-phone {
     display: none;
   }
-
 
   /* footer > a {
     display: none;
