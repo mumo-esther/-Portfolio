@@ -169,6 +169,65 @@ cards.forEach((card) => {
   modal.appendChild(modelContent)
 
 
+  let modalImage = document.createElement('div')
+  modalImage.className= 'modal-images'
+  modelContent.appendChild(modalImage)
+
+  let modalImageOne = document.createElement('img')
+  modalImageOne.className = 'modal-destop-image'
+  modalImage.appendChild(modalImageOne)
+
+  let modalImageTwo = document.createElement('img')
+  modalImageTwo.className = 'modal-phone-image'
+  modalImage.appendChild(modalImageTwo)
+
+
+  let modalh3 =document.createElement('h3')
+  modelContent.appendChild(modalh3)
+
+  let modalUl = document.createElement('ul')
+  cardUl.className='card-tags'
+  modelContent.appendChild(modalUl)
+
+
+
+
+/* modal links*/
+let modalliOne = document.createElement('li')
+modalUl.appendChild(modalliOne)
+let modalliOneText = document.createTextNode(card.technologies.react)
+modalliOne.appendChild(modalliOneText)
+
+
+let modalliTwo = document.createElement('li')
+modalUl.appendChild(modalliTwo)
+let modalliTwoText = document.createTextNode(card.technologies.css)
+modalliTwo.appendChild(modalliTwoText)
+
+let modalliThree = document.createElement('li')
+modalUl.appendChild(modalliThree)
+let modalliThreeText = document.createTextNode(card.technologies.javscript)
+modalliThree.appendChild(modalliThreeText)
+
+let modalliFour = document.createElement('li')
+modalUl.appendChild(modalliFour)
+let modalliFourText = document.createTextNode(card.technologies.html)
+modalliFour.appendChild(modalliFourText)
+
+let modalliFive = document.createElement('li')
+modalUl.appendChild(modalliFive)
+let modalliFiveText = document.createTextNode(card.technologies.react)
+modalliFive.appendChild(modalliFiveText)
+
+
+let modalliSix = document.createElement('li')
+modalUl.appendChild(modalliSix)
+let modalliSixText = document.createTextNode(card.technologies.css)
+modalliSix.appendChild(modalliSixText)
+
+
+
+
   /*div.innerHTML = `
   <article class="card-work">
       <div class="card-image">

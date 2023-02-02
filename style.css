@@ -860,7 +860,7 @@ footer::after {
   background-color: #fff;
   margin: auto;
   padding: 20px;
-  border: 3px solid rgb(233, 139, 9);
+  border: 3px solid rgb(255, 255, 255);
   width: 80%;
   overflow: auto;
   height: 80vh;
