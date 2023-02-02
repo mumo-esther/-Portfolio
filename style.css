@@ -844,8 +844,25 @@ footer::after {
 */
 
 /* popup css */
+.modal-phone-image{
+  display:none;
+  
+}
+.modal-destop-image{
+  width: 100%;
+}
+.popupclose-btn{
+  position: fixed;
+  background-color: white;
+  width: 60%;
+  top:50px;
+}
+.titleright-phone{
+  display: none;
+}
+
 .main {
-  dispay: none;
+  display: none;
   position: fixed;
   z-index: 40;
   padding-top: 50px;
@@ -853,33 +870,25 @@ footer::after {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(221, 219, 219, 0.404);
-  background-color: rgba(0, 0, 0, 0.867);
+  background-color: rgba(221, 219, 219, 0.097);
+  background-color: rgba(212, 212, 212, 0.835);
 }
 .modal-content {
   background-color: #fff;
   margin: auto;
   padding: 20px;
   border: 3px solid rgb(255, 255, 255);
-  width: 80%;
+  width: 60%;
   overflow: auto;
   height: 80vh;
 }
-.popup {
-  z-index: 1;
-  position: fixed;
-  background-color: white;
+.modal-images{
+  margin-top: 60px;
 }
 
 .main.show {
   opacity: 1;
   pointer-events: auto;
-}
-
-.popupcard-image {
-  /* width: 100%;
-  height: 700px;
-  margin-right: 20px; */
 }
 
 .title {
@@ -888,13 +897,20 @@ footer::after {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}.title h3{
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: left;
 }
 
 .titleright {
   display: flex;
   flex-direction: row;
-  width: max-content;
+  width:53%;
 column-gap: 20px;
+}.titleright button{
+  display: flex;
+  width:150px;
 }
 
 .popupcard-title {
@@ -958,22 +974,65 @@ border-radius: 8px;
 }
 
 @media (max-width:768px) {
-  .mobilepopup{
-    overflow-y: scroll;
-    background-color: white;
-    position: absolute;
+  .modal-phone-image{
+    display:block;
+    
   }
-
-  .mobilepopupcard-image {
-    height: 300px;
+  .modal-destop-image{
+    display: none;
+  }
+  .popupclose-btn{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
     width: 100%;
+    top:-13px;
   }
-
-  .popupclose-btn {
-    margin-top: 40px;
+  
+  .main {
+    display: none;
+    position: fixed;
+    z-index: 300;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 219, 219, 0.097);
+    background-color: rgba(212, 212, 212, 0.835);
   }
-
-  .popupcard-tags {
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
     padding: 20px;
+    border-radius: 6px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 80%;
+    overflow: auto;
+    height: 80vh;
   }
+  .modal-images{
+    margin-top: -70px;
+  }
+.titleright{
+  display: none;
+}
+.popupcard-tags{
+  overflow: hidden;
+  width: 100%;
+}
+.titleright-phone{
+  display: flex;
+  width:100%;
+  flex-direction: row;
+  gap:10px
+
+}
+.titleright-phone button{
+display: flex;
+width: auto;
+
+
+}
+
+
 }

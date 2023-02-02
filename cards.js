@@ -25,8 +25,8 @@ source:'source',
  modalh3:'Keeping track of hundreds of components',
  modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
-desktopsnapshoot:'./images/desktop popup.png',
-mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
+desktopsnapshoot:'images/desktop popup.png',
+mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -55,8 +55,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
-desktopsnapshoot:'./images/desktop popup.png',
-mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
+desktopsnapshoot:'images/desktop popup.png',
+mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -85,8 +85,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
-desktopsnapshoot:'./images/desktop popup.png',
-mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
+desktopsnapshoot:'images/desktop popup.png',
+mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -115,8 +115,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
-desktopsnapshoot:'./images/desktop popup.png',
-mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
+desktopsnapshoot:'images/desktop popup.png',
+mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -145,8 +145,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
-desktopsnapshoot:'./images/desktop popup.png',
-mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
+desktopsnapshoot:'images/desktop popup.png',
+mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -175,8 +175,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
-desktopsnapshoot:'./images/desktop popup.png',
-mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
+desktopsnapshoot:'images/desktop popup.png',
+mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
 }
 ]
 
@@ -263,10 +263,12 @@ closebtn.innerHTML =  '&times;';
 
   let modalImageOne = document.createElement('img')
   modalImageOne.className = 'modal-destop-image'
+  modalImageOne.src = card.desktopsnapshoot
   modalImage.appendChild(modalImageOne)
 
   let modalImageTwo = document.createElement('img')
   modalImageTwo.className = 'modal-phone-image'
+  modalImageTwo.src = card.mobilesnapshoot
   modalImage.appendChild(modalImageTwo)
 
 
@@ -356,6 +358,63 @@ modelContent.appendChild(modalDetails)
 
 let cardText = document.createTextNode(card.description)
 modalDetails.appendChild(cardText)
+
+
+
+
+let rbuttonDiv = document.createElement('div')
+rbuttonDiv.className = 'titleright-phone'
+modalDetails.appendChild(rbuttonDiv)
+
+
+let rtitlebutton1 = document.createElement('button')
+let rtittlebutton1text = document.createTextNode(card.seelive)
+rtitlebutton1.appendChild(rtittlebutton1text)
+let rBimage1 = document.createElement('img')
+rBimage1.src = card.modalimage1
+rtitlebutton1.appendChild(rBimage1)
+rbuttonDiv.appendChild(rtitlebutton1)
+
+
+
+
+let rtitlebutton2 = document.createElement('button')
+let rtittlebutton2text = document.createTextNode(card.source)
+rtitlebutton2.appendChild(rtittlebutton2text)
+let rBimage2 = document.createElement('img')
+rBimage2.src = card.modalimage2
+
+rtitlebutton2.appendChild(rBimage2)
+rbuttonDiv.appendChild(rtitlebutton2)
+
+
+
+const buttons = document.querySelectorAll('.btn-popup');
+
+const modals = document.querySelectorAll('.main');
+
+const modalClose = document.querySelectorAll('.close');
+
+const manalNav = function vera() {
+  modals.forEach(() => {
+  });
+};
+
+buttons.forEach((btn, i) => {
+  btn.addEventListener('click', () => {
+    manalNav(i);
+    modals[i].style.display = 'block';
+  });
+});
+
+modalClose.forEach((btn, i) => {
+  btn.addEventListener('click', () => {
+    manalNav(i);
+    modals[i].style.display = 'none';
+  });
+});
+
+
 
 
 });
