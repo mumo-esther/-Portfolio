@@ -25,6 +25,8 @@ source:'source',
  modalh3:'Keeping track of hundreds of components',
  modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
+desktopsnapshoot:'./images/desktop popup.png',
+mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -53,6 +55,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
+desktopsnapshoot:'./images/desktop popup.png',
+mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -81,6 +85,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
+desktopsnapshoot:'./images/desktop popup.png',
+mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -109,6 +115,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
+desktopsnapshoot:'./images/desktop popup.png',
+mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -137,6 +145,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
+desktopsnapshoot:'./images/desktop popup.png',
+mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
 },
 
 {
@@ -165,8 +175,8 @@ seeproject:'see project',
 modalh3:'Keeping track of hundreds of components',
 modalimage1:'images/seelive.png',
 modalimage2:'images/white-github.png',
-
-
+desktopsnapshoot:'./images/desktop popup.png',
+mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
 }
 ]
 
