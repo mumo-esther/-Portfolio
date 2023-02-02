@@ -845,7 +845,7 @@ footer::after {
 
 /* popup css */
 .main {
-  display: none;
+  dispay: none;
   position: fixed;
   z-index: 40;
   padding-top: 50px;

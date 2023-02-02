@@ -8,12 +8,23 @@ const cards = [
     react:'React', 
     css: 'Css', 
     javscript: 'JavaScript', 
-    html: 'Html'
+    html: 'Html',
+    ror: 'Ruby on Rails',
+    codekit: 'Codekit',
+    Github: 'Github',
+    bootstrap: 'Bootstrap',
+    terminal: 'Terminal',
+    codepen: 'Codepen',
   },
+  seelive:'see live',
+source:'source',
  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
  livelink: 'https://app-pokemon-webapp.netlify.app/',
  seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
  seeproject:'see project',
+ modalh3:'Keeping track of hundreds of components',
+ modalimage1:'images/seelive.png',
+modalimage2:'images/white-github.png',
 },
 
 {
@@ -30,13 +41,18 @@ const cards = [
   codekit: 'Codekit',
   Github: 'Github',
   bootstrap: 'Bootstrap',
-  terminal: 'Termonal',
+  terminal: 'Terminal',
   codepen: 'Codepen',
 },
+seelive:'see live',
+source:'source',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 seeproject:'see project',
+modalh3:'Keeping track of hundreds of components',
+modalimage1:'images/seelive.png',
+modalimage2:'images/white-github.png',
 },
 
 {
@@ -53,13 +69,18 @@ seeproject:'see project',
     codekit: 'Codekit',
     Github: 'Github',
     bootstrap: 'Bootstrap',
-    terminal: 'Termonal',
+    terminal: 'Terminal',
     codepen: 'Codepen',
   },
+  seelive:'see live',
+source:'source',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 seeproject:'see project',
+modalh3:'Keeping track of hundreds of components',
+modalimage1:'images/seelive.png',
+modalimage2:'images/white-github.png',
 },
 
 {
@@ -76,13 +97,18 @@ seeproject:'see project',
     codekit: 'Codekit',
     Github: 'Github',
     bootstrap: 'Bootstrap',
-    terminal: 'Termonal',
+    terminal: 'Terminal',
     codepen: 'Codepen',
   },
+  seelive:'see live',
+source:'source',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 seeproject:'see project',
+modalh3:'Keeping track of hundreds of components',
+modalimage1:'images/seelive.png',
+modalimage2:'images/white-github.png',
 },
 
 {
@@ -99,13 +125,18 @@ seeproject:'see project',
     codekit: 'Codekit',
     Github: 'Github',
     bootstrap: 'Bootstrap',
-    terminal: 'Termonal',
+    terminal: 'Terminal',
     codepen: 'Codepen',
   },
+  seelive:'see live',
+source:'source',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 seeproject:'see project',
+modalh3:'Keeping track of hundreds of components',
+modalimage1:'images/seelive.png',
+modalimage2:'images/white-github.png',
 },
 
 {
@@ -117,12 +148,25 @@ seeproject:'see project',
   react:'React', 
   css: 'Css', 
   javscript: 'JavaScript', 
-  html: 'Html'
+  html: 'Html',
+  ror: 'Ruby on Rails',
+  codekit: 'Codekit',
+  Github: 'Github',
+  bootstrap: 'Bootstrap',
+  terminal: 'Terminal',
+  codepen: 'Codepen',
 },
+seelive:'see live',
+source:'source',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 seeproject:'see project',
+modalh3:'Keeping track of hundreds of components',
+modalimage1:'images/seelive.png',
+modalimage2:'images/white-github.png',
+
+
 }
 ]
 
@@ -192,6 +236,16 @@ cards.forEach((card) => {
   modelContent.className ='modal-content'
   modal.appendChild(modelContent)
 
+let closeDiv = document.createElement('div')
+closeDiv.className = 'popupclose-btn'
+modelContent.appendChild(closeDiv)
+
+let closebtn = document.createElement('button')
+closebtn.className='close'
+closebtn.id='close'
+closeDiv.appendChild(closebtn)
+closebtn.innerHTML =  '&times;';
+
 
   let modalImage = document.createElement('div')
   modalImage.className= 'modal-images'
@@ -206,15 +260,48 @@ cards.forEach((card) => {
   modalImage.appendChild(modalImageTwo)
 
 
+let h3buttons = document.createElement('div')
+h3buttons.className='title'
+modelContent.appendChild(h3buttons)
+
+
   let modalh3 =document.createElement('h3')
-  modelContent.appendChild(modalh3)
-  let modalh3Text = document.createTextNode()
+  h3buttons.appendChild(modalh3)
+  let modalh3Text = document.createTextNode(card.modalh3)
   modalh3.appendChild(modalh3Text)
+
+let buttonDiv = document.createElement('div')
+buttonDiv.className = 'titleright'
+h3buttons.appendChild(buttonDiv)
+
+
+let titlebutton1 = document.createElement('button')
+let tittlebutton1text = document.createTextNode(card.seelive)
+titlebutton1.appendChild(tittlebutton1text)
+let Bimage1 = document.createElement('img')
+Bimage1.src = card.modalimage1
+titlebutton1.appendChild(Bimage1)
+buttonDiv.appendChild(titlebutton1)
+
+
+
+
+let titlebutton2 = document.createElement('button')
+let tittlebutton2text = document.createTextNode(card.source)
+titlebutton2.appendChild(tittlebutton2text)
+let Bimage2 = document.createElement('img')
+Bimage2.src = card.modalimage2
+
+titlebutton2.appendChild(Bimage2)
+buttonDiv.appendChild(titlebutton2)
+
+
+
 
 
 
   let modalUl = document.createElement('ul')
-  cardUl.className='card-tags'
+  modalUl.className='popupcard-tags'
   modelContent.appendChild(modalUl)
 
 
@@ -229,7 +316,7 @@ modalliOne.appendChild(modalliOneText)
 
 let modalliTwo = document.createElement('li')
 modalUl.appendChild(modalliTwo)
-let modalliTwoText = document.createTextNode(card.technologies.github)
+let modalliTwoText = document.createTextNode(card.technologies.Github)
 modalliTwo.appendChild(modalliTwoText)
 
 let modalliThree = document.createElement('li')
@@ -252,6 +339,13 @@ let modalliSix = document.createElement('li')
 modalUl.appendChild(modalliSix)
 let modalliSixText = document.createTextNode(card.technologies.codepen)
 modalliSix.appendChild(modalliSixText)
+
+let modalDetails = document.createElement('p')
+modalDetails.className ='card-text'
+modelContent.appendChild(modalDetails)
+
+let cardText = document.createTextNode(card.description)
+modalDetails.appendChild(cardText)
 
 
 });
