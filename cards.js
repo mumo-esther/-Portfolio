@@ -13,6 +13,7 @@ const cards = [
  description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
  livelink: 'https://app-pokemon-webapp.netlify.app/',
  seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
+ seeproject:'see project',
 },
 
 {
@@ -29,6 +30,7 @@ const cards = [
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
+seeproject:'see project',
 },
 
 {
@@ -45,6 +47,7 @@ seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
+seeproject:'see project',
 },
 
 {
@@ -61,6 +64,7 @@ seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
+seeproject:'see project',
 },
 
 {
@@ -77,6 +81,7 @@ seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
+seeproject:'see project',
 },
 
 {
@@ -93,10 +98,105 @@ seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
 description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
 livelink: 'https://app-pokemon-webapp.netlify.app/',
 seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
+seeproject:'see project',
 }
 ]
 
-const works = document.getElementById('works');
+const works = document.getElementsByClassName('works')[0];
+
+cards.forEach((card) => {
+
+  let article = document.createElement('article')
+  article.className ='card-work';
+  works.appendChild(article)
+
+  let cardImage = document.createElement('div')
+  cardImage.className = 'card-image'
+  article.appendChild(cardImage)
+
+  let cardTitle = document.createElement('h3')
+  cardTitle.className = 'card-title'
+  let cardTitletext = document.createTextNode(card.title)
+  cardTitle.appendChild(cardTitletext)
+  article.appendChild(cardTitle)
+
+  let cardh3 = document.createElement('h3')
+  article.appendChild(cardh3)
+  let cardh3Text = document.createTextNode(card.h3)
+  cardh3.appendChild(cardh3Text)
+
+
+  let cardUl = document.createElement('ul')
+  cardUl.className='card-tags'
+  article.appendChild(cardUl)
+
+  let liOne = document.createElement('li')
+  cardUl.appendChild(liOne)
+  let liOneText = document.createTextNode(card.technologies.react)
+  liOne.appendChild(liOneText)
+
+
+  let liTwo = document.createElement('li')
+  cardUl.appendChild(liTwo)
+  let liTwoText = document.createTextNode(card.technologies.css)
+  liTwo.appendChild(liTwoText)
+
+  let liThree = document.createElement('li')
+  cardUl.appendChild(liThree)
+  let liThreeText = document.createTextNode(card.technologies.javscript)
+  liThree.appendChild(liThreeText)
+
+  let liFour = document.createElement('li')
+  cardUl.appendChild(liFour)
+  let liFourText = document.createTextNode(card.technologies.html)
+  liFour.appendChild(liFourText)
+
+
+  let cardButton = document.createElement('button')
+  cardButton.className = 'btn-popup'
+  let buttonText = document.createTextNode(card.seeproject)
+  cardButton.appendChild(buttonText)
+  article.appendChild(cardButton)
+
+
+
+  let modal = document.createElement('div')
+  modal.className='main'
+  article.appendChild(modal)
+
+  let modelContent = document.createElement('div')
+  modelContent.className ='modal-content'
+  modal.appendChild(modelContent)
+
+
+  /*div.innerHTML = `
+  <article class="card-work">
+      <div class="card-image">
+      </div>
+      <h3 class="card-title">
+      ${card.title}
+      </h3>
+      <h3>
+          ${h3Array[0]}
+      </h3>
+      <ul class="card-tags">
+          <li>${langArray[0]}</li>
+          <li>${langArray[1]}</li>
+          <li>${langArray[2]}</li>
+          <li>${langArray[3]}</li>
+      </ul>
+      <button type="button" class="btn-popup">
+          See Project
+      </button>
+  </article>`;*/
+
+
+
+
+});
+
+
+/*
 
 for (let i = 0; i < 6; i++) {
   const div = document.createElement('div');
@@ -183,4 +283,4 @@ popbtn.forEach((n) => {
       main.classList.remove('.popup');
     });
   });
-});
+});*/

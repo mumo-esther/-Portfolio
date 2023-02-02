@@ -817,20 +817,54 @@ footer::after {
   }
 }
 
+
+/*
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 40;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 219, 219, 0.404);
+    background-color: rgba(0, 0, 0, 0.867);
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid rgb(233, 139, 9);
+    width: 80%;
+    overflow: auto;
+    height: 80vh;
+  }
+*/
+
 /* popup css */
 .main {
-margin: 20px;
-background-color: #fff;
- top: 0;
- left: 0;
- width: 100%;
- height: 100vh;
- position: fixed;
- overflow-y: scroll;
- z-index: 2;
- transition: opacity 0.3s ease;
+  display: none;
+  position: fixed;
+  z-index: 40;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(221, 219, 219, 0.404);
+  background-color: rgba(0, 0, 0, 0.867);
 }
-
+.modal-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 20px;
+  border: 3px solid rgb(233, 139, 9);
+  width: 80%;
+  overflow: auto;
+  height: 80vh;
+}
 .popup {
   z-index: 1;
   position: fixed;
