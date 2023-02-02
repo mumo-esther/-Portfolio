@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>PORTFOLIO</title>
+  <title>Esther's Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet"/>
@@ -13,40 +13,24 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
-    <section class="headline">
     <header>
     <nav class="header-nav-phone">
-        <a href="#" class="header-logo">
-                Welcome
-        </a>
-        <button type="button" class="menu-btn" id="nav-toggle">
-            <img src="./images/Union.png" alt="menu link">
-        </button>
-        <div class="nav-menu" id="nav-menu">
-            <div class="btn-close-nav" id="nav-close">
-                <i class=" fa fa-times"></i>
-              </div>
-              <ul>
-                  <li class="nav-item">
-                      <a href="#works" class="link-portfolio">
-                          Portfolio
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#about-myself-id" class="link-about">
-                          About
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="#footer-container-id" class="link-contact">
-                          Contact
-                      </a>
-                  </li>
-              </ul>
-        </div>
+        <a href="#" class="header-logo">Welcome</a>
+        <div class="light-black hamburger-menu-display" onclick="openNav()">
+            <i class="fas fa-bars hamburger-menu"></i>
+          </div>
+          <div id="myNav" class="overlay bg-light-black">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a>
+            <div class="overlay-content">
+              <a class="overlay-item" onclick="closeNav()" href="#works" >Portfolio</a>
+              <a class="overlay-item" onclick="closeNav()" href="#about-myself">About</a>
+              <a class="overlay-item"  onclick="closeNav()" href="#footer-container">Contact</a>
+            </div>
+          </div>
     </nav>
     </header>
-
+    <section class="headline" id="headline">
       <div class="container container-flex">
            <div>
             <ul class="header-nav-desktop">
@@ -100,19 +84,25 @@
           </button>
       </div>
   </section>
-      <section class="recent-works">
+   
+  <!-- <section class="recent-works">
+    <div class="works">
+        <h2>My Recent Works</h2>
+    </div>
+  </section> -->
+      <section class="recent-works" id="works">
         <div class="works" id="works">
-            <h1>My Recent Works</h1>
+            <h2>My Recent Works</h2>
             <article class="card-work">
                 <div class="card-image">
                     
                 </div>
-                <h2 class="card-title">
+                <h3 class="card-title">
                     Multi-Post Stories 
-                </h2>
-                <h2>
+                </h3>
+                <h3>
                     Gain+Glory
-                </h2>
+                </h3>
                 <ul class="card-tags">
                     <li>Ruby on rails</li>
                     <li>css</li>
@@ -128,12 +118,12 @@
               <div class="card-image">
                   
               </div>
-              <h2 class="card-title">
+              <h3 class="card-title">
                     Multi-Post Stories 
-                </h2>
-                <h2>
+                </h3>
+                <h3>
                     Gain+Glory
-                </h2>
+                </h3>
               <ul class="card-tags">
                   <li>Ruby on Rails</li>
                   <li>css</li>
@@ -148,12 +138,12 @@
             <div class="card-image">
                 
             </div>
-           <h2 class="card-title">
+           <h3 class="card-title">
                     Multi-Post Stories 
-                </h2>
-                <h2>
+                </h3>
+                <h3>
                     Gain+Glory
-                </h2>
+                </h3>
             <ul class="card-tags">
                 <li>Ruby on Rails</li>
                 <li>css</li>
@@ -168,12 +158,12 @@
           <div class="card-image">
               
           </div>
-          <h2 class="card-title">
+          <h3 class="card-title">
                     Multi-Post Stories 
-                </h2>
-                <h2>
+                </h3>
+                <h3>
                     Gain+Glory
-                </h2>
+                </h3>
           <ul class="card-tags">
               <li>Ruby on Rails</li>
               <li>css</li>
@@ -189,12 +179,12 @@
         <div class="card-image">
             
         </div>
-        <h2 class="card-title">
+        <h3 class="card-title">
                     Multi-Post Stories 
-                </h2>
-                <h2>
+                </h3>
+                <h3>
                     Gain+Glory
-                </h2>
+                </h3>
         <ul class="card-tags">
             <li>Ruby on Rails</li>
             <li>css</li>
@@ -210,12 +200,12 @@
       <div class="card-image">
           
       </div>
-     <h2 class="card-title">
+     <h3 class="card-title">
                     Multi-Post Stories 
-                </h2>
-                <h2>
+                </h3>
+                <h3>
                     Gain+Glory
-                </h2>
+                </h3>
       <ul class="card-tags">
           <li>Ruby on Rails</li>
           <li>css</li>
@@ -228,9 +218,9 @@
   </article>
         </div>
     </section>
-        <section class="container-flex about-myself" id="about-myself-id">
+        <section class="container-flex about-myself" id="about-myself">
           <div class="container">
-              <h1>About me</h1>
+              <h2>About me</h2>
               <p>
                   I can help you build a product , feature or website Look through some of my work and experience! If you
                   like
@@ -247,9 +237,9 @@
                       <div class="categorie-image">
                           <img src="./images/language.png" alt="icon languages">
                       </div>
-                      <h2 class="categorie-title">
+                      <h3 class="categorie-title">
                           Languages
-                      </h2>
+                      </h3>
                       <ul class="categorie-tags">
                           <li>JavaScript</li>
                           <li>Ruby</li>
@@ -263,9 +253,9 @@
                       <div class="categorie-image">
                           <img src="./images/frameworks.png" alt="icon frameworks">
                       </div>
-                      <h2 class="categorie-title">
+                      <h3 class="categorie-title">
                           Frameworks
-                      </h2>
+                      </h3>
                      <ul class="categorie-tags">
                           <li>Bootstrap</li>
                           <li>Ruby on Rails</li>
@@ -280,9 +270,9 @@
                       <div class="categorie-image">
                           <img src="./images/skills.png" alt="icon skills">
                       </div>
-                      <h2 class="categorie-title">
+                      <h3 class="categorie-title">
                           Skills
-                      </h2>
+                      </h3>
                       <ul class="categorie-tags">
                           <li>Codekit</li>
                           <li>GitHub</li>
@@ -295,11 +285,11 @@
           </ul>
       </section>
 
-    <footer class="footer-container" id="footer-container-id">
+    <footer class="footer-container" id="footer-container">
       <div class="footer-form">
-          <h1 class="footer-title">
+          <p class="footer-title">
               I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-          </h1>
+          </p>
           <form  class="form-input" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mwkjpoba" method="post">
               <ul class="form-fields">
                   <li class="input-name">
@@ -354,6 +344,7 @@
       </ul>
       
   </footer>
-    <script src="./main.js"></script>
+    <script src="./togglemenu.js"></script>
+    <script src="./cards.js"></script>
 </body>
 </html>
