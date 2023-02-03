@@ -26,3 +26,9 @@ inputs.forEach((input) => {
     input.value = data[inputName];
   }
 });
+forms.addEventListener('input', (e) => {
+  const input = e.target;
+  const inputName = input.getAttribute('name');
+  data[inputName] = input.value;
+  localStorage.setItem('formData', JSON.stringify(data));
+});
