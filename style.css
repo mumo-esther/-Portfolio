@@ -707,9 +707,9 @@ footer::after {
   border-radius: 8px;
 }
 
-.error-messsage {
+.error-message {
   color: red;
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 600px;
 }
 
@@ -782,7 +782,7 @@ footer::after {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media(max-width: 768px) {
   .headline h1,
   .headline p .social-media {
     margin-top: 100px;

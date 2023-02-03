@@ -25,8 +25,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -55,8 +55,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -85,8 +85,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -115,8 +115,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -145,8 +145,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -175,8 +175,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 ];
 
