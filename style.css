@@ -50,13 +50,13 @@ li {
 a {
   text-decoration: none;
 }
+
 .modal-content {
   background-color: #fff;
   margin: auto;
   padding: 20px;
-  border-radius: 6px;
   border: 3px solid rgb(255, 255, 255);
-  width: 90%;
+  width: 60%;
   overflow: auto;
   height: 80vh;
 }
@@ -717,9 +717,9 @@ footer::after {
   border-radius: 8px;
 }
 
-.error-message {
+.error-messsage {
   color: red;
-  font-size: 15px;
+  font-size: 22px;
   font-weight: 600px;
 }
 
@@ -790,37 +790,10 @@ footer::after {
   .submit-button {
     align-self: flex-start;
   }
-
-@media screen and (max-width: 768px) {
-  .headline h1,
-  .headline p .social-media {
-    margin-top: 100px;
-  }
-
-  .about-myself {
-    background:
-      url("./images/frame5.png") no-repeat 0% 15%,
-      url("./images/frame4.png") no-repeat 100% 0%;
-    background-size: 90px, 85px;
-  }
-
-  .categorie-about-myself {
-    display: grid;
-    grid-template-columns: repeat(1, auto);
-  }
-
-*/ 
-.modal-phone-image {
-  display: block;
-}
-
-.modal-destop-image {
-  display: none;
-  width: 100%;
 }
 
 .titleright-phone {
-  display:0;
+  display: 0;
 }
 
 .main {
@@ -834,16 +807,6 @@ footer::after {
   height: 100%;
   background-color: rgba(221, 219, 219, 0.097);
   background-color: rgba(212, 212, 212, 0.835);
-}
-
-.modal-content {
-  background-color: #fff;
-  margin: auto;
-  padding: 20px;
-  border: 3px solid rgb(255, 255, 255);
-  width: 60%;
-  overflow: auto;
-  height: 80vh;
 }
 
 .modal-images {
@@ -908,9 +871,7 @@ footer::after {
   flex-direction: row;
   justify-content: right;
   margin-right: 20px;
-  
 }
-
 
 .close {
   color: black;
@@ -923,325 +884,260 @@ footer::after {
   align-items: center;
   border: 1px solid #dfe1e6;
   border-radius: 8px;
+  margin-right: -20px;
 }
 
 .popupbtns {
   display: flex;
 }
-
-
-
-
-
-
-
-
 
 @media only screen and (max-width: 768px) {
-/*phone css */
-.headline h1,
-.headline p .social-media {
-  margin-top: 100px;
-}
+  /* phone css */
+  .headline h1,
+  .headline p .social-media {
+    margin-top: 100px;
+  }
 
-.about-myself {
-  background:
-    url("./images/frame5.png") no-repeat 0% 15%,
-    url("./images/frame4.png") no-repeat 100% 0%;
-  background-size: 90px, 85px;
-}
+  .about-myself {
+    background:
+      url("./images/frame5.png") no-repeat 0% 15%,
+      url("./images/frame4.png") no-repeat 100% 0%;
+    background-size: 90px, 85px;
+  }
 
-.categorie-about-myself {
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-}
+  .categorie-about-myself {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
 
-.works {
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-}
+  .works {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+  }
 
-textarea {
-  font: 1em inter, sans-serif;
-  width: 300px;
-  box-sizing: border-box;
-  border: 1px solid green;
-  vertical-align: top;
-  height: 114px;
-}
+  textarea {
+    font: 1em inter, sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid green;
+    vertical-align: top;
+    height: 114px;
+  }
 
-/*start modal phone css*/ 
-.modal-phone-image {
-  display: block;
-}
+  /* start modal phone css */
 
-.modal-destop-image {
-  display: none;
-  width: 100%;
-}
+  .title {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-.titleright-phone {
-  display:0;
-}
+  .title h3 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+  }
 
-.main {
-  display: none;
-  position: fixed;
-  z-index: 240;
-  padding-top: 50px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(221, 219, 219, 0.097);
-  background-color: rgba(212, 212, 212, 0.835);
-}
+  .titleright button {
+    display: flex;
+    width: 150px;
+  }
 
-.modal-content {
-  background-color: #fff;
-  margin: auto;
-  padding: 20px;
-  border: 3px solid rgb(255, 255, 255);
-  width: 60%;
-  overflow: auto;
-  height: 80vh;
-}
+  .popupcard-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
 
-.modal-images {
-  margin-top: -70px;
-}
+  .popupcard-tags li {
+    gap: 0;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+  }
 
-.main.show {
-  opacity: 1;
-  pointer-events: auto;
-}
+  .card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+    margin-right: 20px;
+  }
 
-.title {
-  margin-right: 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
+  .close {
+    color: black;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #ebecf0;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dfe1e6;
+    border-radius: 8px;
+  }
 
-.title h3 {
-  font-size: 30px;
-  font-weight: bolder;
-  text-align: left;
-}
+  .popupbtns {
+    display: flex;
+  }
 
-.titleright {
-  display: none;
-  flex-direction: row;
-  width: 53%;
-  column-gap: 20px;
-}
+  .modal-phone-image {
+    display: block;
+    width: 100%;
+  }
 
-.titleright button {
-  display: flex;
-  width: 150px;
-}
+  .modal-destop-image {
+    display: none;
+  }
 
-.popupcard-title {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  color: #172b4d;
-}
+  .popupclose-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 20px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    top: -13px;
+  }
 
-.popupcard-tags {
-  display: flex;
-  width: 100%;
-  border-radius: 6px;;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  gap:10px;
-}.popupcard-tags li{
-  gap: 0;
-  font-size: 14px;
-  margin: 0;
-  display: flex;
+  .main {
+    display: none;
+    position: fixed;
+    z-index: 300;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(221, 219, 219, 0.097);
+    background-color: rgba(212, 212, 212, 0.835);
+  }
 
-}
-.card-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  color: #344563;
-  margin-right: 20px;
-}
+  .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 6px;
+    border: 3px solid rgb(255, 255, 255);
+    width: 80%;
+    overflow: auto;
+    height: 80vh;
+  }
 
-.popupclose-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  margin-right: 20px;
-}
+  #codepen {
+    display: none;
+  }
 
-.close {
-  color: black;
-  font-size: 15px;
-  font-weight: 100;
-  background-color: #ebecf0;
-  margin: 3px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #dfe1e6;
-  border-radius: 8px;
-}
+  #bootstrap {
+    display: none;
+  }
 
-.popupbtns {
-  display: flex;
-}
+  #terminal {
+    display: none;
+  }
 
-.modal-phone-image {
-  display: block;
-  width: 100%;
-}
+  .modal-images {
+    margin-top: -70px;
+  }
 
-.modal-destop-image {
-  display: none;
-}
+  .titleright {
+    display: none;
+  }
 
-.popupclose-btn {
-  position: relative;
-  background-color: rgba(255, 255, 255, 0);
-  width: 100%;
-  top: -13px;
-}
+  .popupcard-tags {
+    overflow: hidden;
+    width: 100%;
+  }
 
-.main {
-  display: none;
-  position: fixed;
-  z-index: 300;
-  padding-top: 50px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(221, 219, 219, 0.097);
-  background-color: rgba(212, 212, 212, 0.835);
-}
+  .titleright-phone {
+    display: flex;
+    width: 100%;
+    padding: 6px;
+    flex-direction: row;
+    gap: 10px;
+  }
 
-.modal-content {
-  background-color: #fff;
-  margin: auto;
-  padding: 20px;
-  border-radius: 6px;
-  border: 3px solid rgb(255, 255, 255);
-  width: 80%;
-  overflow: auto;
-  height: 80vh;
-}
-#codepen{
-display: none;
-}
-#bootstrap{
-display: none;
-}
-#terminal{
-display:none;
-}
-.modal-images {
-  margin-top: -70px;
-}
+  .titleright-phone button {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    position: relative;
+    height: 40px;
+  }
 
-.titleright {
-  display: none;
-}
+  .titleright-phone button img {
+    position: absolute;
+    left: 77%;
+    top: 20%;
+  }
 
-.popupcard-tags {
-  overflow: hidden;
-  width: 100%;
-}
-
-.titleright-phone {
-  display: flex;
-  width: 100%;
-  padding: 6px;
-  flex-direction: row;
-  gap: 10px;
-}
-
-.titleright-phone button {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  text-align: left;
-  font-size: 13px;
-  position: relative;
-  height: 40px;
-  
-}.titleright-phone button img{
-  position: absolute;
-  left: 77%;
-  top: 20%;
-}
-/*end modal phone css*/
+  /* end modal phone css */
 }
 
 @media only screen and (min-width: 768px) {
-/* desktop css */
+  /* desktop css */
 
-.modal-phone-image {
-  display: none;
-}
+  .modal-phone-image {
+    display: none;
+  }
 
-.modal-destop-image {
-  display: block;
-  height: 350px;
-  width: 100%;
-}
+  .modal-destop-image {
+    display: block;
+    height: 350px;
+    width: 100%;
+  }
 
+  .modal-images {
+    margin-top: 0;
+  }
 
-.modal-images {
-  margin-top: 0px;
-}
+  .popupcard-tags {
+    display: flex;
+    width: 100%;
+    border-radius: 6px;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+  }
 
+  .popupcard-tags li {
+    gap: 0;
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+  }
 
-.popupcard-tags {
-  display: flex;
-  width: 100%;
-  border-radius: 6px;;
-  flex-direction: row;
-  align-items: center;
-  align-content: center;
-  gap:10px;
-}.popupcard-tags li{
-  gap: 0;
-  font-size: 14px;
-  margin: 0;
-  display: flex;
+  .titleright {
+    display: flex;
+    flex-direction: row;
+    width: 53%;
+    column-gap: 20px;
+  }
 
-}
-.titleright {
-  display:flex;
-  flex-direction: row;
-  width: 53%;
-  column-gap: 20px;
-}
+  .titleright button {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    align-content: center;
+    padding: 10px 10px;
+    position: relative;
+    width: 150px;
+  }
 
-.titleright button {
-  display: flex;
-  flex-direction: row;
-  height: 40px;
-  align-content: center;
-  padding: 10px 10px;
-  position: relative;
-  width: 150px;
-}.titleright button img{
-  position: absolute;
-  left: 77%;
-  top: 20%;
-}
+  .titleright button img {
+    position: absolute;
+    left: 77%;
+    top: 20%;
+  }
 
-
-.titleright-phone {
-  display: none;
-
-}
-
-
+  .titleright-phone {
+    display: none;
+  }
 }
