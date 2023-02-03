@@ -14,3 +14,15 @@ form.addEventListener('submit', (event) => {
     errorMessage.style.display = 'block';
   }
 });
+
+// preserve data in the browser
+const forms = document.querySelector('form');
+const inputs = form.querySelectorAll('input');
+const data = JSON.parse(localStorage.getItem('formData')) || {};
+
+inputs.forEach((input) => {
+  const inputName = input.getAttribute('name');
+  if (data[inputName]) {
+    input.value = data[inputName];
+  }
+});
