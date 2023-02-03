@@ -707,6 +707,12 @@ footer::after {
   border-radius: 8px;
 }
 
+.error-messsage {
+  color: red;
+  font-size: 22px;
+  font-weight: 600px;
+}
+
 @media (min-width: 768px) {
   html,
   body {
@@ -990,5 +996,3 @@ footer::after {
 .popupbtns {
   display: flex;
 }
-
-
