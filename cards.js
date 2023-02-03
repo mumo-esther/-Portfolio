@@ -317,16 +317,19 @@ cards.forEach((card) => {
   const modalliFour = document.createElement('li');
   modalUl.appendChild(modalliFour);
   const modalliFourText = document.createTextNode(card.technologies.bootstrap);
+  modalliFour.id = 'bootstrap';
   modalliFour.appendChild(modalliFourText);
 
   const modalliFive = document.createElement('li');
   modalUl.appendChild(modalliFive);
   const modalliFiveText = document.createTextNode(card.technologies.terminal);
+  modalliFive.id = 'terminal';
   modalliFive.appendChild(modalliFiveText);
 
   const modalliSix = document.createElement('li');
   modalUl.appendChild(modalliSix);
   const modalliSixText = document.createTextNode(card.technologies.codepen);
+  modalliSix.id = 'codepen';
   modalliSix.appendChild(modalliSixText);
 
   const modalDetails = document.createElement('p');
