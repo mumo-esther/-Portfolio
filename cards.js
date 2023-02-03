@@ -25,8 +25,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -55,8 +55,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -85,8 +85,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -115,8 +115,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -145,8 +145,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 
   {
@@ -175,8 +175,8 @@ const cards = [
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: 'images/desktop popup.png',
-    mobilesnapshoot: 'images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/desktop popup.png',
+    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
   },
 ];
 
@@ -317,16 +317,19 @@ cards.forEach((card) => {
   const modalliFour = document.createElement('li');
   modalUl.appendChild(modalliFour);
   const modalliFourText = document.createTextNode(card.technologies.bootstrap);
+  modalliFour.id = 'bootstrap';
   modalliFour.appendChild(modalliFourText);
 
   const modalliFive = document.createElement('li');
   modalUl.appendChild(modalliFive);
   const modalliFiveText = document.createTextNode(card.technologies.terminal);
+  modalliFive.id = 'terminal';
   modalliFive.appendChild(modalliFiveText);
 
   const modalliSix = document.createElement('li');
   modalUl.appendChild(modalliSix);
   const modalliSixText = document.createTextNode(card.technologies.codepen);
+  modalliSix.id = 'codepen';
   modalliSix.appendChild(modalliSixText);
 
   const modalDetails = document.createElement('p');
