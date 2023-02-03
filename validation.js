@@ -5,6 +5,7 @@ const errorMessage = document.querySelector('.error-message');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
   const emailValue = emailInput.value;
+  
   if (emailValue.toLowerCase() === emailValue) {
     form.submit();
   } else {
