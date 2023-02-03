@@ -882,21 +882,22 @@ footer::after {
 
 /* popup css */
 .modal-phone-image {
-  display: none;
+  display: block;
 }
 
 .modal-destop-image {
+  display: none;
   width: 100%;
 }
 
 .titleright-phone {
-  display: none;
+  display:0;
 }
 
 .main {
   display: none;
   position: fixed;
-  z-index: 40;
+  z-index: 240;
   padding-top: 50px;
   left: 0;
   top: 0;
@@ -917,7 +918,7 @@ footer::after {
 }
 
 .modal-images {
-  margin-top: 60px;
+  margin-top: -70px;
 }
 
 .main.show {
@@ -940,7 +941,7 @@ footer::after {
 }
 
 .titleright {
-  display: flex;
+  display: none;
   flex-direction: row;
   width: 53%;
   column-gap: 20px;
@@ -978,7 +979,9 @@ footer::after {
   flex-direction: row;
   justify-content: right;
   margin-right: 20px;
+  
 }
+
 
 .close {
   color: black;
