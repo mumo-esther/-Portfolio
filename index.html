@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
-<body>
+<body> 
     <header>
     <nav class="header-nav-phone">
         <a href="#" class="header-logo">Welcome</a>
@@ -84,140 +84,11 @@
           </button>
       </div>
   </section>
-   
-  <!-- <section class="recent-works">
-    <div class="works">
-        <h2>My Recent Works</h2>
-    </div>
-  </section> -->
-      <section class="recent-works" id="works">
-        <div class="works" id="works">
-            <h2>My Recent Works</h2>
-            <article class="card-work">
-                <div class="card-image">
-                    
-                </div>
-                <h3 class="card-title">
-                    Multi-Post Stories 
-                </h3>
-                <h3>
-                    Gain+Glory
-                </h3>
-                <ul class="card-tags">
-                    <li>Ruby on rails</li>
-                    <li>css</li>
-                    <li>JavaScript</li>
-                    <li>html</li>
-                </ul>
-                <button type="button" class="btn-popup">
-                    See Project
-                </button>
-            </article>
-
-            <article class="card-work">
-              <div class="card-image">
-                  
-              </div>
-              <h3 class="card-title">
-                    Multi-Post Stories 
-                </h3>
-                <h3>
-                    Gain+Glory
-                </h3>
-              <ul class="card-tags">
-                  <li>Ruby on Rails</li>
-                  <li>css</li>
-                  <li>JavaScript</li>
-                  <li>html</li>
-              </ul>
-              <button type="button" class="btn-popup">
-                  See Project
-              </button>
-          </article>
-          <article class="card-work">
-            <div class="card-image">
-                
-            </div>
-           <h3 class="card-title">
-                    Multi-Post Stories 
-                </h3>
-                <h3>
-                    Gain+Glory
-                </h3>
-            <ul class="card-tags">
-                <li>Ruby on Rails</li>
-                <li>css</li>
-                <li>JavaScript</li>
-                <li>html</li>
-            </ul>
-            <button type="button" class="btn-popup">
-                See Project
-            </button>
-        </article>
-        <article class="card-work">
-          <div class="card-image">
-              
-          </div>
-          <h3 class="card-title">
-                    Multi-Post Stories 
-                </h3>
-                <h3>
-                    Gain+Glory
-                </h3>
-          <ul class="card-tags">
-              <li>Ruby on Rails</li>
-              <li>css</li>
-              <li>JavaScript</li>
-              <li>html</li>
-          </ul>
-          <button type="button" class="btn-popup">
-              See Project
-          </button>
-      </article>
-
-      <article class="card-work">
-        <div class="card-image">
-            
-        </div>
-        <h3 class="card-title">
-                    Multi-Post Stories 
-                </h3>
-                <h3>
-                    Gain+Glory
-                </h3>
-        <ul class="card-tags">
-            <li>Ruby on Rails</li>
-            <li>css</li>
-            <li>JavaScript</li>
-            <li>html</li>
-        </ul>
-        <button type="button" class="btn-popup">
-            See Project
-        </button>
-    </article>
-
-    <article class="card-work">
-      <div class="card-image">
-          
-      </div>
-     <h3 class="card-title">
-                    Multi-Post Stories 
-                </h3>
-                <h3>
-                    Gain+Glory
-                </h3>
-      <ul class="card-tags">
-          <li>Ruby on Rails</li>
-          <li>css</li>
-          <li>JavaScript</li>
-          <li>html</li>
-      </ul>
-      <button type="button" class="btn-popup">
-          See Project
-      </button>
-  </article>
-        </div>
-    </section>
+  <h1 class="works-title">
+    My Recent Works
+</h1> 
+  <section class="works" id="works">
+  </section>
         <section class="container-flex about-myself" id="about-myself">
           <div class="container">
               <h2>About me</h2>
@@ -293,28 +164,34 @@
           <form  class="form-input" id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mwkjpoba" method="post">
               <ul class="form-fields">
                   <li class="input-name">
-                      <input type="text" name="name" id="name" maxlength="30" placeholder="Full name" required>
+                      <input type="text" name="name"  maxlength="30" placeholder="Full name">
 
                   </li>
                   <li class="input-full-name">
-                      <input type="text" name="first_name" id="first_name" maxlength="30" placeholder="First name"
-                          required>
-                      <input type="text" name="last_name" id="last_name" maxlength="30" placeholder="Last name"
-                          required>
+                      <input type="text" name="first name"  maxlength="30" placeholder="First name"
+                        >
+                      <input type="text" name="last name"  maxlength="30" placeholder="Last name"
+                          >
                   </li>
                   <li class="input-email-li">
-                      <input class="input-email" type="email" name="email" id="email" placeholder="Email address"
+                      <input class="input-email" type="email" name="email" placeholder="Email address"
                           required>
                   </li>
                   <li>
-                      <textarea name="text_area" id="text_area" maxlength="500"
+                      <textarea name="text_area" id="text-area" maxlength="500"
                           placeholder="Enter text here" required></textarea>
                   </li>
-                   <button class= "submit-button" type="submit" name="button" >Get in touch</button>
+                  <li>
+                    <p class="error-message" id="error-message" hidden></p>
+                  </li>
+                  <li>
+                   <button class="submit-button"  type="submit" name="button" >Get in touch</button>
                   </li>
               </ul>
           </form>
       </div>
+
+      
       <ul class="social-media">
           <li>
               <a href="">
@@ -346,5 +223,6 @@
   </footer>
     <script src="./togglemenu.js"></script>
     <script src="./cards.js"></script>
+    <script defer src="./validation.js"></script>
 </body>
 </html>
