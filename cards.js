@@ -17,7 +17,7 @@ const cards = [
     livelink: 'https://mumo-esther.github.io/microverse-capstone-1/',
     seesourcelink: 'https://github.com/mumo-esther/microverse-capstone-1',
     seeproject: 'see project',
-    modalh3: 'Keeping track of hundreds of components',
+    modalh3: ' In particular, I would like to point out that I built this website completely from scratch.',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
     desktopsnapshoot: './images/stem home page.png',
