@@ -1,32 +1,27 @@
 const cards = [
   {
     id: 1,
-    title: 'Multi-post Stories',
+    title: 'STEM Congress',
     h3: 'Gain + Glory',
     technologies: {
-      react: 'React',
       css: 'Css',
       javscript: 'JavaScript',
       html: 'Html',
-      ror: 'Ruby on Rails',
-      codekit: 'Codekit',
       Github: 'Github',
       bootstrap: 'Bootstrap',
       terminal: 'Terminal',
-      codepen: 'Codepen',
     },
     seelive: 'see live',
     source: 'source',
-    description:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    livelink: 'https://app-pokemon-webapp.netlify.app/',
-    seesourcelink: 'https://app-pokemon-webapp.netlify.app/',
+    description:'This website is an announcement for the upcoming congress. The congress will be held within The University of Nairobi. General information about the club and the conference is given throughout the site. Speakers are introduced in a separate section. In addition, a form page is defined for participants who want to buy tickets.',
+    livelink: 'https://mumo-esther.github.io/microverse-capstone-1/',
+    seesourcelink: 'https://github.com/mumo-esther/microverse-capstone-1',
     seeproject: 'see project',
     modalh3: 'Keeping track of hundreds of components',
     modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
-    desktopsnapshoot: './images/desktop popup.png',
-    mobilesnapshoot: './images/Snapshoot Portfolio mobile.png',
+    desktopsnapshoot: './images/stem home page.png',
+    mobilesnapshoot: './images/mobile-stem screenshot.png',
   },
 
   {
