@@ -333,10 +333,11 @@ footer p {
 }
 
 .card-image {
-  overflow: hidden;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
   box-sizing: border-box;
   height: 252px;
-  background-color: #ebf0ee;
 }
 
 .card-image img {
