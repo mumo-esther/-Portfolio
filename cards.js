@@ -1,6 +1,7 @@
 const cards = [
   {
     id: 1,
+    img: './images/stem-img.PNG',
     title: 'STEM Congress',
     h3: 'Gain + Glory',
     technologies: {
@@ -18,14 +19,15 @@ const cards = [
     seesourcelink: 'https://github.com/mumo-esther/microverse-capstone-1',
     seeproject: 'see project',
     modalh3: ' In particular, I would like to point out that I built this website completely from scratch.',
-    modalimage1: 'images/seelive.PNG',
+    modalimage1: 'images/seelive.png',
     modalimage2: 'images/white-github.png',
     desktopsnapshoot: './images/stem home page.PNG',
-    mobilesnapshoot: './images/mobile-stem screenshot.png',
+    mobilesnapshoot: './images/mobile-stem screenshot.PNG',
   },
 
   {
     id: 2,
+    img: './images/stem-img.PNG',
     title: 'Multi-post Stories',
     h3: 'Gain + Glory',
     technologies: {
@@ -56,6 +58,7 @@ const cards = [
 
   {
     id: 3,
+    img: './images/stem-img.PNG',
     title: 'Multi-post Stories',
     h3: 'Gain + Glory',
     technologies: {
@@ -86,6 +89,7 @@ const cards = [
 
   {
     id: 4,
+    img: './images/stem-img.PNG',
     title: 'Multi-post Stories',
     h3: 'Gain + Glory',
     technologies: {
@@ -116,6 +120,7 @@ const cards = [
 
   {
     id: 5,
+    img: './images/stem-img.PNG',
     title: 'Multi-post Stories',
     h3: 'Gain + Glory',
     technologies: {
@@ -146,6 +151,7 @@ const cards = [
 
   {
     id: 6,
+    img: './images/stem-img.PNG',
     title: 'Multi-post Stories',
     h3: 'Gain + Glory',
     technologies: {
@@ -184,6 +190,7 @@ cards.forEach((card) => {
 
   const cardImage = document.createElement('div');
   cardImage.className = 'card-image';
+  cardImage.style.backgroundImage = `url(${card.img})`;
   article.appendChild(cardImage);
 
   const cardTitle = document.createElement('h3');
@@ -274,6 +281,10 @@ cards.forEach((card) => {
 
   const titlebutton1 = document.createElement('button');
   const tittlebutton1text = document.createTextNode(card.seelive);
+ // Add a click listener to the button
+titlebutton1.addEventListener('click', function() {
+  window.location.href = (card.livelink);
+});
   titlebutton1.appendChild(tittlebutton1text);
   const Bimage1 = document.createElement('img');
   Bimage1.src = card.modalimage1;
@@ -282,6 +293,11 @@ cards.forEach((card) => {
 
   const titlebutton2 = document.createElement('button');
   const tittlebutton2text = document.createTextNode(card.source);
+  // Add a click listener to the button
+titlebutton2.addEventListener('click', function() {
+  window.location.href = (card.seesourcelink);
+});
+
   titlebutton2.appendChild(tittlebutton2text);
   const Bimage2 = document.createElement('img');
   Bimage2.src = card.modalimage2;
