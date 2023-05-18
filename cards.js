@@ -119,7 +119,7 @@ const cards = [
 
   {
     id: 5,
-    img: "./images/rockets.png",
+    img: "./images/rockets.PNG",
     title: "Space traveller's Hub",
     h3: "Space Traveller's Hub",
     technologies: {
