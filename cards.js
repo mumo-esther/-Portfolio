@@ -57,9 +57,9 @@ const cards = [
 
   {
     id: 3,
-    img: "./images/todos.PNG",
-    title: "React Todo App",
-    h3: "App with login/logout",
+    img: "./images/desktohome.PNG",
+    title: "Crypto App",
+    h3: " Cryptocurrencies data",
     technologies: {
       react: "React",
       css: "Css",
@@ -82,8 +82,8 @@ const cards = [
     modalh3: "Keeping track of hundreds of components",
     modalimage1: "images/seelive.png",
     modalimage2: "images/white-github.png",
-    desktopsnapshoot: "./images/logged todo.PNG",
-    mobilesnapshoot: "./images/logged todo.PNG",
+    desktopsnapshoot: "./images/mobiledetails.PNG",
+    mobilesnapshoot: "./images/mobile.homepage.PNG",
   },
 
   {
@@ -119,9 +119,9 @@ const cards = [
 
   {
     id: 5,
-    img: "./images/bookstore.png",
-    title: "Bookstore CMS",
-    h3: "Adding, deleting,tracking books",
+    img: "./images/rockets.png",
+    title: "Space traveller's Hub",
+    h3: "Space Traveller's Hub",
     technologies: {
       react: "React",
       css: "Css",
@@ -136,15 +136,17 @@ const cards = [
     },
     seelive: "see live",
     source: "source",
-    description: "Display a list of books, Add a book, Remove a selected book",
-    livelink: "https://app-pokemon-webapp.netlify.app/",
-    seesourcelink: "https://app-pokemon-webapp.netlify.app/",
+    description:
+      "This is a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. The application uses live data from the SpaceX API.",
+    livelink: "https://space-travellers-hub-cvy1.onrender.com/",
+    seesourcelink:
+      "https://github.com/mumo-esther/React-group-project-space-travellers-hub.git",
     seeproject: "see project",
-    modalh3: "Keeping track of hundreds of components",
+    modalh3: "Keeping track of hundreds of Space Ships",
     modalimage1: "images/seelive.png",
     modalimage2: "images/white-github.png",
-    desktopsnapshoot: "./images/bookstore.png",
-    mobilesnapshoot: "./images/bookstore.png",
+    desktopsnapshoot: "./images/missions.PNG",
+    mobilesnapshoot: "./images/missions.PNG",
   },
 
   {
