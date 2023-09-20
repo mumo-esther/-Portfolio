@@ -51,8 +51,8 @@ const cards = [
     modalh3: "Keeping track of hundreds of components",
     modalimage1: "images/seelive.png",
     modalimage2: "images/white-github.png",
-    desktopsnapshoot: "./images/weather comments.PNG",
-    mobilesnapshoot: "./images/weather comments.PNG",
+    desktopsnapshoot: "./images/issuemanager.png",
+    mobilesnapshoot: "./images/issuemanager.png",
   },
 
   {
