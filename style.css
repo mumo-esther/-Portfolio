@@ -253,14 +253,19 @@ footer p {
     padding-top: 1em;
   }
 
-  .header-nav-desktop li {
+  .header-nav-desktop a {
     list-style: none;
-    padding: 0;
+    padding: 0 10px;
     font-size: 18px;
     line-height: 42px;
     font-weight: bold;
     color: #42526e;
     cursor: pointer;
+  }
+
+  .header-nav-desktop a:hover {
+    text-decoration: underline;
+    color: #008552;
   }
 
   .headline {
@@ -366,11 +371,14 @@ footer p {
 }
 
 .card-work > .card-tags > li {
-  background: #ebf0ee;
+  background: rgba(128, 128, 128, 0.226);
+  color: var(--color-primary);
   font-size: 12px;
-  padding: 0.3em;
-  margin: 0 0.1em;
-  border-radius: 2px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 10px 5px;
+  margin: 1em 0.5em;
+  border-radius: 5px;
 }
 
 .card-work-details-mobile {

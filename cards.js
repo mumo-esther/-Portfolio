@@ -30,23 +30,23 @@ const cards = [
 
   {
     id: 2,
-    img: "./images/weather-dashboard.PNG",
-    title: "  Weather Dashboard",
-    h3: "Vanilla Js capstone project",
+    img: "./images/issuemanager.png",
+    title: "Github Issue Manager",
+    h3: "Nextjs, Tailwind Project",
     technologies: {
-      html: "Html",
-      react: "React",
-      css: "Css",
-      javscript: "JavaScript",
       Github: "Github",
+      react: "NextJS",
+      css: "Tailwind",
+      javscript: "JavaScript",
+      html: 'Html',
       terminal: "Terminal",
     },
     seelive: "see live",
     source: "source",
     description:
       "Weather Dashboard is a weather application which displays the weather of cities in the form of list from Openweathermap API.",
-    livelink: "https://muhammadusmanaslam.github.io/Weather-Dashboard/dist/",
-    seesourcelink: "https://github.com/mumo-esther/Weather-Dashboard.git",
+    livelink: "https://github-issue-manager.vercel.app/",
+    seesourcelink: "https://github.com/mumo-esther/github-issue-manager",
     seeproject: "see project",
     modalh3: "Keeping track of hundreds of components",
     modalimage1: "images/seelive.png",
@@ -57,40 +57,38 @@ const cards = [
 
   {
     id: 3,
-    img: "./images/todos.PNG",
-    title: "React Todo App",
-    h3: "App with login/logout",
+    img: "./images/netflix-build.png",
+    title: "Netflix Build",
+    h3: "Netflix Clone",
     technologies: {
+      firebase: "firebase",
       react: "React",
       css: "Css",
       javscript: "JavaScript",
       html: "Html",
-      ror: "Ruby on Rails",
-      codekit: "Codekit",
       Github: "Github",
-      bootstrap: "Bootstrap",
       terminal: "Terminal",
       codepen: "Codepen",
     },
     seelive: "see live",
     source: "source",
     description:
-      "This Project, divided into several parts, is very comprehensive, and covers all main concepts about React, from the very basics to some intermediate topics. Todo App, Form and also a react hamburger menu",
-    livelink: "https://react-todos-ibas.vercel.app/",
-    seesourcelink: "https://github.com/mumo-esther/React-todo-App.git",
+      "Clone—This web app clone offers a learning experience and allows users to explore various movies worldwide, including original netflix series, horror, romance, action, comedy movies . Please note that it does not provide streaming services.",
+    livelink: "https://netflix-build-14c63.web.app/",
+    seesourcelink: "https://github.com/mumo-esther/netflix-build",
     seeproject: "see project",
     modalh3: "Keeping track of hundreds of components",
     modalimage1: "images/seelive.png",
     modalimage2: "images/white-github.png",
-    desktopsnapshoot: "./images/logged todo.PNG",
-    mobilesnapshoot: "./images/logged todo.PNG",
+    desktopsnapshoot:"./images/netflix.png",
+    mobilesnapshoot: "./images/netflix-build.png",
   },
 
   {
     id: 4,
-    img: "./images/calculator.png",
-    title: "Math Magicians",
-    h3: "SPA With calulator",
+    img: "./images/spacehub.png",
+    title: "Space Traveller's hub",
+    h3: "SpaceX API Latest data",
     technologies: {
       react: "React",
       css: "Css",
@@ -106,15 +104,15 @@ const cards = [
     seelive: "see live",
     source: "source",
     description:
-      "The Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.",
-    livelink: "https://math-magician-seven.vercel.app/",
-    seesourcelink: "https://app-pokemon-webapp.netlify.app/",
+      "This is a web application for a company that provides commercial and scientific spacetravel services which allows users to book rockets and join selected space missions. It uses live data from the SpaceX API.",
+    livelink: "https://space-travellers-hub-cvy1.onrender.com/",
+    seesourcelink: "https://github.com/mumo-esther/React-group-project-space-travellers-hub",
     seeproject: "see project",
-    modalh3: "Keeping track of hundreds of components",
+    modalh3: "Keeping track of Live SpaceX data",
     modalimage1: "images/seelive.png",
     modalimage2: "images/white-github.png",
-    desktopsnapshoot: "./images/math_magicians_home.png",
-    mobilesnapshoot: "./images/math_magicians_home.png",
+    desktopsnapshoot: "./images/spacehub.png",
+    mobilesnapshoot: "./images/spacehub.png",
   },
 
   {
@@ -137,10 +135,10 @@ const cards = [
     seelive: "see live",
     source: "source",
     description: "Display a list of books, Add a book, Remove a selected book",
-    livelink: "https://app-pokemon-webapp.netlify.app/",
-    seesourcelink: "https://app-pokemon-webapp.netlify.app/",
+    livelink: "https://bookstore-xpp0.onrender.com/",
+    seesourcelink: "https://github.com/mumo-esther/Bookstore",
     seeproject: "see project",
-    modalh3: "Keeping track of hundreds of components",
+    modalh3: "Keeping track of your books and reading progress",
     modalimage1: "images/seelive.png",
     modalimage2: "images/white-github.png",
     desktopsnapshoot: "./images/bookstore.png",
@@ -149,8 +147,8 @@ const cards = [
 
   {
     id: 6,
-    img: "./images/leaderboard.PNG",
-    title: "Leaderboard",
+    img: "./images/cryptoapp.png",
+    title: "Crypto App",
     h3: "ES6 + Webpack",
     technologies: {
       react: "React",
@@ -164,15 +162,15 @@ const cards = [
     seelive: "see live",
     source: "source",
     description:
-      "The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service This is built using ES6 and Webpack!",
-    livelink: "https://leaderboard-mutf.onrender.com",
+      "This is a web application that allows users to explore Cryptocurrencies data related to a variety of categories. The webapp retrieves data from the coin stats API to gather data such as cryptocurrency exchanges.",
+    livelink: "https://cypto-app.onrender.com/",
     seesourcelink: "https://github.com/mumo-esther/Leaderboard.git",
     seeproject: "see project",
-    modalh3: "Keeping track of hundreds of components",
+    modalh3: "Keeping track of hundreds of coins data froms coinstats API",
     modalimage1: "images/seelive.png",
     modalimage2: "images/white-github.png",
-    desktopsnapshoot: "./images/leaderboard.PNG",
-    mobilesnapshoot: "./images/leaderboard.PNG",
+    desktopsnapshoot: "./images/desktopcrypto.png",
+    mobilesnapshoot: "./images/cryptoapp.png",
   },
 ];
 
@@ -390,3 +388,14 @@ cards.forEach((card) => {
     });
   });
 });
+
+const scrollButton = document.getElementById('scrollButton');
+
+scrollButton.addEventListener('click', function () {
+    const nextPageYPosition = window.innerHeight; 
+    window.scrollTo({
+        top: nextPageYPosition,
+        behavior: 'smooth'
+    });
+});
+
