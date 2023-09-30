@@ -1,5 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
+/* Define keyframes for text animation */
+@keyframes textAnimation {
+  0% {
+    font-size: 24px; 
+    color: #333; 
+    transform: rotate(0deg); 
+  }
+  25% {
+    font-size: 30px;
+    color: #ff6600;
+    transform: rotate(-5deg); 
+  }
+  50% {
+    font-size: 24px; 
+    color: #ff0000;
+    transform: rotate(5deg); 
+  }
+  75% {
+    font-size: 30px; 
+    color: #ff6600; 
+    transform: rotate(-5deg); 
+  }
+  100% {
+    font-size: 24px; 
+    color: #333; 
+    transform: rotate(0deg); 
+  }
+}
+
+.header-title {
+  animation: textAnimation 5s infinite; 
+}
+
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.about-myself {
+  animation: fade-in 1s ease-in-out; 
+}
+
+
 html,
 body {
   margin: 0;
@@ -250,7 +299,11 @@ footer p {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    padding-top: 1em;
+   padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
   }
 
   .header-nav-desktop a {
@@ -507,6 +560,30 @@ footer p {
 }
 
 @media (min-width: 1050px) {
+  .header-nav-desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-top: 1em;
+    position: fixed;
+    background-color: #fff;
+  }
+
+  .header-nav-desktop a {
+    list-style: none;
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 42px;
+    font-weight: bold;
+    color: #42526e;
+    cursor: pointer;
+  }
+
+  .header-nav-desktop a:hover {
+    text-decoration: underline;
+    color: #008552;
+  }
+
   .tag-mobile {
     background: #ebf0ee;
     font-family: Inter, sans-serif;

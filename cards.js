@@ -45,7 +45,7 @@ const cards = [
     source: "source",
     description:
       "Weather Dashboard is a weather application which displays the weather of cities in the form of list from Openweathermap API.",
-    livelink: "https://github-issue-manager.vercel.app/",
+    livelink: "https://github-issue-manager-oaehuecdx-mumo-esther.vercel.app/",
     seesourcelink: "https://github.com/mumo-esther/github-issue-manager",
     seeproject: "see project",
     modalh3: "Keeping track of hundreds of components",
